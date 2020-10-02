@@ -38,8 +38,8 @@ echo
 echo ENTER PARA CONTINUAR ...... CTL-C PARA CANCELAR
 read
 
-diskutil partitionDisk disk0 GPT APFS macOS R
-diskutil partitionDisk disk1 GPT APFS macOS R
+#diskutil partitionDisk disk0 GPT APFS macOS R
+#diskutil partitionDisk disk1 GPT APFS macOS R
 
 echo -n "w46t59[RV\tF3@Y1UK}x6Nx" | hdiutil attach -stdinpass /Volumes/ker/autoinstall.10.15.7.02.dmg -noverify
 
